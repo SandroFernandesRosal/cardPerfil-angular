@@ -1,0 +1,26 @@
+.buttons {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+    border-radius: 5px;
+    background-color: darkslategrey;
+    color: white;
+    font-weight: bold;
+    box-shadow: 3px 5px 7px black;
+    height: 30px;
+}
+
+.buttons a:hover {
+    background-color: aquamarine;
+    color: darkslategray;
+ }
